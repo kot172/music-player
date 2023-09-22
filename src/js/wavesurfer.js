@@ -13,6 +13,7 @@ wavesurfer.on('finish', () => {
     }
 });
 
+
 wavesurfer.on('audioprocess', () => {
     updateCurrentTime();
 });

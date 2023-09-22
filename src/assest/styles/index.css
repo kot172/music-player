@@ -1,0 +1,81 @@
+#player {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#controls {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#seekBar,
+#volumeBar {
+  width: 200px;
+}
+
+#playlist {
+  margin-top: 20px;
+}
+
+#trackList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#visualizer {
+  width: 100%;
+  height: 100px;
+  background-color: #f2f2f2;
+}
+
+.body {
+  background-color: gray;
+}
+
+.track {
+  cursor: pointer;
+  padding: 8px;
+  text-align: left;
+}
+
+.track:not(:last-child) {
+  border-bottom: 1px solid rgba(134, 134, 134, 0.3);
+}
+
+
+.trackList {
+  color: white;
+  border-radius: 0 0 8px 8px;
+  margin-bottom: 0;
+}
+
+.currentTrack{
+  color: white;
+  display: block;
+  margin: 8px;
+}
+
+.button{
+  border-radius: 5px;
+  height: 25px;
+  border: none;
+  margin: 5px;
+  min-width: 50px;
+  transition: background-color 0.3s;
+}
+
+.button:active {
+  background-color: green;
+}
+
+
+.button__red{
+  border: 1px solid red;
+}
